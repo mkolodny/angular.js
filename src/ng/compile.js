@@ -449,7 +449,7 @@
  *  called as: <br> `cloneAttachFn(clonedElement, scope)` where:
  *
  *      * `clonedElement` - is a clone of the original `element` passed into the compiler.
- *      * `scope` - is the current scope with which the linking function is working with.
+ *      * `scope` - is the current scope that the linking function is working with.
  *
  * Calling the linking function returns the element of the template. It is either the original
  * element passed in, or the clone of the element if the `cloneAttachFn` is provided.
